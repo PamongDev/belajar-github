@@ -1,0 +1,14 @@
+print("login")
+user = input("masukan username: ")
+pw = "input("masukan password :")
+
+DB = MySQL.connect("db_account")
+tb_akun = MySQL.sql("select * From akun)
+if user in username.tb_akun :
+	pw_tb = pw.tb_akun[[username.tb_akun == user]]
+	if pw == pw_tb:
+		print("Berhasil Login")
+	else:
+		print("Password salah, silahkan masukan Kembali passwordnya")
+else :
+	print(f"Akun {user} tidak ditemukan")
