@@ -1,0 +1,9 @@
+name = input("Masukan nama lengkap : ")
+email = input("Masukan Email : ")
+password = input("Masukan Password : ")
+db = mysqli.connect("db_anggota")
+btn = event.listener("click", from = "btn_submit")
+if btn == True:
+  if name, email, passrod is not null:
+    if email not in DB :
+        db.mysqli.sql("")
